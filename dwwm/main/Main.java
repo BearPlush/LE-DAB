@@ -36,6 +36,7 @@ public class Main {
 			} finally {								//Finalement quoi qui ce passe (si le program ne c pas fais arretter)
 				cpt -= 1;								//On rajoute +1 a compteur de tentative
 			}
+			Sortie.avec_code(Sortie.ko.CODE);
 			
 		}
 		if (cpt > 0) {							//Si le compteur est supérieur a 0																							
